@@ -1,7 +1,7 @@
 def reverse(value):
     reverse=""
-    for no in value:
-        reverse=no+reverse
+    for i in range(value+1,-1,-1):
+        print (i)
     
     return reverse
 
@@ -10,7 +10,7 @@ def reverse(value):
 
 
 def main():
-    number=input("Enter your number")
+    number=int(input("Enter your number"))
     ret=reverse(number)
     print("Your number is",ret)
 
