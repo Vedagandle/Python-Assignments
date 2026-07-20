@@ -1,11 +1,11 @@
 def vowel(value):
     
-        if value in "aeiou":
-            print("It is a vowel")
-        else:
-            print("It is a constant")
-        
-        return value
+        for i in value:
+             if i=="aeiou":
+                  print("Vowel")
+             else:
+                  print("constant")
+
 
 
 def main():

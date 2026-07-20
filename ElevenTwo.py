@@ -1,19 +1,19 @@
 def count(value):
     cnt = 0
 
-    while value > 0:
+    for no in str(value):
         cnt = cnt + 1
-        value = value // 10
 
     return cnt
 
 
 def main():
-    no = int(input("Enter your number: "))
+    print("Enter number:")
+    value = int(input())
 
-    ret = count(no)
+    ret = count(value)
 
-    print("Count of digits is:", ret)
+    print("Number of digits are:", ret)
 
 
 if __name__ == "__main__":

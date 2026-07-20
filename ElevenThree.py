@@ -1,6 +1,6 @@
 def sumdigits(value):
     sum = 0
-    for no in value:
+    for no in (value):
         sum = sum + int(no)
 
     return sum

@@ -1,7 +1,7 @@
 def odd(value):
-    for i in range(1,value+1,1):
-        if i%2==1:
-            print(i)
+    for i in range(1,value+1,2):
+        
+     print(i)
 
 def main():
     print("enter your no")

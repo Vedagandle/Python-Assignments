@@ -1,7 +1,7 @@
-def square(Value1,):
-    Ans=Value1*Value1
+def square(Value1):
+    value1=Value1*Value1
    
-    return Ans
+    return value1
     
 
 
