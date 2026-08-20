@@ -118,5 +118,5 @@ print(df1)
 print(border)
 
 print("Drop english columns from original dataframe")
-df.drop("English", axis=1, inplace=True)
+df.drop("English", axis=1, inplace=True)              #axis 1=delete coumn, axis 0=delete row
 print(df)
